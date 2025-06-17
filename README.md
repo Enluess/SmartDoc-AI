@@ -1,5 +1,3 @@
----
-
 # SmartDoc AI
 
 **SmartDoc AI** is an AI-powered application that professionally summarizes long texts or documents section by section, with full support for Turkish language.
@@ -133,5 +131,3 @@ Pull requests and contributions are welcome!
 
 For suggestions, bug reports, or collaboration:
 [Instagram](https://instagram.com/watashienesu)
-
----
