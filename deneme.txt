@@ -1,0 +1,37 @@
+"Küresel Dijital Dönüşüm Sözleşmesi: 2022–2027 Dönemi
+
+Belgenin Konusu:
+Bu sözleşme, ABC Teknoloji A.Ş. ile XYZ Lojistik Ltd. Şti. arasında, 2022-2027 yılları arasında yürütülecek dijital dönüşüm projelerinin kapsamını, işleyişini ve sorumluluklarını belirlemek amacıyla hazırlanmıştır.
+
+Tarih / Geçerlilik:
+Sözleşme imza tarihi: 12.03.2022
+Geçerlilik süresi: 01.05.2022 - 30.04.2027
+
+Taraflar:
+Taraf 1 - ABC Teknoloji Anonim Şirketi (Yazılım sağlayıcı)
+Taraf 2 - XYZ Lojistik Limited Şirketi (Hizmet alıcı)
+
+Ana Maddeler:
+1. ABC Teknoloji, XYZ Lojistik’in tüm lojistik süreçlerinde dijitalleşme danışmanlığı sunacaktır.
+2. Proje kapsamında bulut tabanlı yazılım entegrasyonu ve veri analitiği hizmetleri sağlanacaktır.
+3. İş planı, taraflarca birlikte hazırlanacak ve altı ayda bir güncellenecektir.
+4. Veri güvenliği ve gizlilik ilkelerine tam uyum sağlanacaktır.
+5. Hizmet bedeli, yıllık olarak güncellenecek ve döviz kuru dalgalanmalarına karşı koruma maddesi uygulanacaktır.
+6. Kritik sistemlerin devreye alınmasında taraflarca ortak testler yapılacaktır.
+7. Taraflar, anlaşmazlık durumunda İstanbul Tahkim Merkezi’ni yetkili kabul eder.
+
+Riskler / Uyarılar:
+- Proje süresince siber saldırı riski ve veri sızıntısı mümkündür.
+- Döviz kuru dalgalanmalarından doğan ek maliyet riski bulunmaktadır.
+- Tedarik zincirinde yaşanabilecek aksaklıklar projenin süresini uzatabilir.
+- Yasal mevzuat değişiklikleri, sözleşme hükümlerini etkileyebilir.
+
+Terimler:
+- Dijital Dönüşüm: İş süreçlerinin dijital teknolojilerle yeniden yapılandırılması.
+- Bulut Tabanlı Yazılım: Uzaktan erişilebilen ve internet üzerinden sunulan yazılım hizmetleri.
+- Veri Analitiği: Büyük veri kümelerinin işlenerek anlamlı bilgiler elde edilmesi.
+- Gizlilik: Taraflar arasında paylaşılan verilerin üçüncü şahıslarla paylaşılmaması.
+- Tahkim: Anlaşmazlıkların mahkeme yerine özel bir hakem heyetinde çözülmesi.
+
+Genel Değerlendirme:
+Bu sözleşme, taraflar arasında dijital dönüşüm alanında uzun vadeli, kapsamlı ve sürdürülebilir bir iş birliği amaçlamaktadır. Risklerin azaltılması için taraflar düzenli iletişim kuracak, güncel teknolojik ve yasal gelişmeler yakından takip edilecektir. Sözleşmenin uygulama sürecinde şeffaflık, güvenlik ve yenilikçilik temel öncelikler arasında yer alacaktır."

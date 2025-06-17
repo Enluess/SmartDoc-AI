@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+python-multipart
+PyMuPDF
+python-docx
+openai
+pydantic
+aiofiles
+requests
+httpx
