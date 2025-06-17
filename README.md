@@ -1,46 +1,52 @@
+---
+
 # SmartDoc AI
 
-**SmartDoc AI**, uzun metinleri veya belgeleri başlık başlık profesyonelce özetleyen, Türkçe dil desteğiyle çalışan bir yapay zeka uygulamasıdır.  
-Bu proje, API tabanlı LLM (Large Language Model) servisleri ile entegre çalışır (örn. OpenRouter, Gemini, OpenAI, Hugging Face gibi), özetleri standart başlıklarla ve anlaşılır şekilde sunar.
+**SmartDoc AI** is an AI-powered application that professionally summarizes long texts or documents section by section, with full support for Turkish language.
+This project integrates with API-based LLM (Large Language Model) services (e.g., OpenRouter, Gemini, OpenAI, Hugging Face) and delivers summaries with standardized headings and clear formatting.
 
-## 🚀 Özellikler
+## 🚀 Features
 
-- **Başlık başlık ve şablonlu çıktı:**  
-  - Belgenin Konusu
-  - Tarih / Geçerlilik
-  - Taraflar
-  - Ana Maddeler
-  - Riskler / Uyarılar
-  - Terimler
-  - Genel Değerlendirme
+* **Section-by-section templated output:**
 
-- **Türkçe metinlere tam destek**
-- **Kolay entegrasyon:** İstenilen LLM API anahtarı ile çalıştırılabilir (OpenRouter, Gemini, OpenAI, vb.)
-- **Modüler backend (FastAPI) & frontend desteği**
-- **Uzun metinlerde yüksek doğruluk ve hızlı çıktı**
+  * Document Topic
+  * Date / Validity
+  * Parties Involved
+  * Main Points
+  * Risks / Warnings
+  * Terms
+  * Overall Evaluation
+
+* **Full support for Turkish texts**
+
+* **Easy integration:** Works with any LLM API key (OpenRouter, Gemini, OpenAI, etc.)
+
+* **Modular backend (FastAPI) & optional frontend support**
+
+* **High accuracy and fast output for long texts**
 
 ---
 
-## 🛠️ Kurulum
+## 🛠️ Installation
 
-### 1. Klonla
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/Enluess/smartdoc-ai.git
 cd smartdoc-ai
 ```
 
-### 2. Ortam değişkenlerini ayarla
+### 2. Set environment variables
 
-Kullandığınız LLM servisine göre ilgili API anahtarını `.env` veya ortam değişkeni olarak girin:
+Enter your API key for the LLM service you use, via `.env` or environment variables:
 
 ```bash
-export OPENROUTER_API_KEY=senin_openrouter_api_keyin
-# veya
-export GEMINI_API_KEY=senin_gemini_api_keyin
+export OPENROUTER_API_KEY=your_openrouter_api_key
+# or
+export GEMINI_API_KEY=your_gemini_api_key
 ```
 
-### 3. Gereksinimleri kur
+### 3. Install dependencies
 
 ```bash
 cd backend/app
@@ -49,7 +55,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 4. Sunucuyu başlat
+### 4. Start the server
 
 ```bash
 uvicorn main:app --reload
@@ -57,33 +63,34 @@ uvicorn main:app --reload
 
 ---
 
-## ⚙️ Proje Yapısı
+## ⚙️ Project Structure
 
 ```
 backend/
   app/
-    main.py           # FastAPI sunucu dosyası
-    summarizer.py     # LLM API entegrasyonu ve özetleme promptları
-    models.py         # Pydantic şema ve çıktı modelleri
+    main.py           # FastAPI server entrypoint
+    summarizer.py     # LLM API integration and summarization prompts
+    models.py         # Pydantic schemas and output models
     ...
 frontend/
-  ...                # (Opsiyonel) Frontend arayüz dosyaları
+  ...                # (Optional) Frontend files
 README.md
 ```
 
 ---
 
-## 📦 API Özeti
+## 📦 API Summary
 
 ### /summarize (POST)
 
-**Açıklama:**  
-Girilen metni başlık başlık özetler.
+**Description:**
+Summarizes the provided text section by section.
 
-**Parametre:**  
-`text` (string): Özetlenecek metin
+**Parameter:**
+`text` (string): The text to summarize
 
-**Dönen:**  
+**Response:**
+
 ```json
 {
   "topic": "...",
@@ -99,30 +106,32 @@ Girilen metni başlık başlık özetler.
 
 ---
 
-## 🧠 Kullanılan Teknolojiler
+## 🧠 Technologies Used
 
-- Python 3.x & FastAPI
-- httpx (API istekleri için)
-- OpenRouter, Gemini, OpenAI veya Hugging Face API (LLM servisleri)
-- (İsteğe bağlı) Frontend: React, Vue, Next.js vb.
-
----
-
-## 🔑 LLM Servisi Değiştirmek
-
-- Sadece `summarizer.py` dosyasında ilgili API entegrasyonunu değiştirerek farklı bir modeli kullanabilirsin.
-- Prompt şablonunu istediğin gibi güncelleyebilirsin.
+* Python 3.x & FastAPI
+* httpx (for API requests)
+* OpenRouter, Gemini, OpenAI or Hugging Face APIs (LLM services)
+* (Optional) Frontend: React, Vue, Next.js, etc.
 
 ---
 
-## 🎯 Katkı ve Lisans
+## 🔑 Switching LLM Service
 
-Bu proje öğrenim ve geliştirme amaçlıdır.  
-PR ve katkılara açıktır!
+* Simply update the API integration in `summarizer.py` to switch models.
+* You can customize the prompt template as needed.
 
 ---
 
-## ✉️ İletişim
+## 🎯 Contribution & License
 
-Her türlü öneri, hata bildirimi veya işbirliği için:  
+This project is for learning and development purposes.
+Pull requests and contributions are welcome!
+
+---
+
+## ✉️ Contact
+
+For suggestions, bug reports, or collaboration:
 [Instagram](https://instagram.com/watashienesu)
+
+---
